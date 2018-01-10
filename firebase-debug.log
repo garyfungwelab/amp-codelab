@@ -1,0 +1,36 @@
+[debug] [2018-01-10T02:59:04.396Z] ----------------------------------------------------------------------
+[debug] [2018-01-10T02:59:04.398Z] Command:       /usr/local/Cellar/node/8.4.0/bin/node /usr/local/bin/firebase serve --only functions,hosting
+[debug] [2018-01-10T02:59:04.399Z] CLI Version:   3.9.2
+[debug] [2018-01-10T02:59:04.399Z] Platform:      darwin
+[debug] [2018-01-10T02:59:04.399Z] Node Version:  v8.4.0
+[debug] [2018-01-10T02:59:04.399Z] Time:          Wed Jan 10 2018 10:59:04 GMT+0800 (HKT)
+[debug] [2018-01-10T02:59:04.399Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-01-10T02:59:04.413Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-01-10T02:59:04.414Z] > authorizing via signed-in user
+[debug] [2018-01-10T02:59:04.416Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/amp-project-694b9  
+ Wed Jan 10 2018 10:59:04 GMT+0800 (HKT)
+[debug] [2018-01-10T02:59:05.431Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-10T02:59:05.431Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/amp-project-694b9/tokens  
+ Wed Jan 10 2018 10:59:05 GMT+0800 (HKT)
+[debug] [2018-01-10T02:59:06.377Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/GaryFung/Desktop/amp-firebase-project'...
+[info] 
+[info] i  functions: Preparing to emulate HTTPS functions. Support for other event types coming soon.
+[debug] [2018-01-10T02:59:07.053Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/amp-project-694b9  
+ Wed Jan 10 2018 10:59:07 GMT+0800 (HKT)
+[debug] [2018-01-10T02:59:07.053Z] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/amp-project-694b9/apiKeys  
+ Wed Jan 10 2018 10:59:07 GMT+0800 (HKT)
+[debug] [2018-01-10T02:59:07.054Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/amp-project-694b9  
+ Wed Jan 10 2018 10:59:07 GMT+0800 (HKT)
+[debug] [2018-01-10T02:59:08.221Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-10T02:59:08.222Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/150385788293/clients/_:getWebAppConfig  
+ Wed Jan 10 2018 10:59:08 GMT+0800 (HKT)
+[debug] [2018-01-10T02:59:08.308Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-10T02:59:08.339Z] <<< HTTP RESPONSE 200
+[debug] [2018-01-10T02:59:09.042Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+
+[info] i  functions: No HTTPS functions emulated. Support for other function types are coming soon.
